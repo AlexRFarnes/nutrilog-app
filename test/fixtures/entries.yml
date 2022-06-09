@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: entries
+#
+#  id            :bigint           not null, primary key
+#  calories      :integer
+#  carbohydrates :integer
+#  fats          :integer
+#  meal_type     :string
+#  proteins      :integer
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#
+
+one:
+  meal_type: MyString
+  calories: 1
+  proteins: 1
+  carbohydrates: 1
+  fats: 1
+
+two:
+  meal_type: MyString
+  calories: 1
+  proteins: 1
+  carbohydrates: 1
+  fats: 1

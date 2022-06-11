@@ -10,11 +10,17 @@
 #  proteins      :integer
 #  created_at    :datetime         not null
 #  updated_at    :datetime         not null
+#  category_id   :bigint
+#
+# Indexes
+#
+#  index_entries_on_category_id  (category_id)
 #
 require "test_helper"
 
 class EntryTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "is valid with valid attributes" do
+    entry = Entry.new(meal_type: "Dinner", calories: 450, carbohydrates: 25, proteins: 25, fats: 15)
+    assert entry.save
+  end
 end

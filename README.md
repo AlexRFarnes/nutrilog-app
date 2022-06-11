@@ -38,7 +38,8 @@ A CRUD app buitl with Rails, PostgreSQL and styled with Bulma. The app allows to
 
 ## Screenshots
 
-![]()
+![Screenshot 2022-06-11 at 22-34-42 NutriLog](https://user-images.githubusercontent.com/57517804/173192567-d03c7ea6-5dce-4428-b0dc-3b5eeda9df1c.png)
+![Screenshot 2022-06-11 at 22-32-41 NutriLog](https://user-images.githubusercontent.com/57517804/173192570-9854428c-60df-44d3-b199-96475ddcdd15.png)
 <!-- [Demo]() -->
 
 ## Built with

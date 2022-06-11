@@ -12,16 +12,16 @@
 #  updated_at    :datetime         not null
 #
 
-one:
-  meal_type: MyString
-  calories: 1
-  proteins: 1
-  carbohydrates: 1
-  fats: 1
+breakfast:
+  meal_type: "Breakfast"
+  calories: 450
+  proteins: 10
+  carbohydrates: 10
+  fats: 5
 
-two:
-  meal_type: MyString
-  calories: 1
-  proteins: 1
-  carbohydrates: 1
-  fats: 1
+lunch:
+  meal_type: "Lunch"
+  calories: 750
+  proteins: 45
+  carbohydrates: 15
+  fats: 8
